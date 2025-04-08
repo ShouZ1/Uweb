@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+	<h1>Đăng ký nhập học</h1>
+		<form action="#">
+		<label for="ho ten"><b>Họ và tên: </b></label><input type="text" placeholder="Họ tên" class="form-control" size="50"><br>
+		<label for="gioi tinh"><b>Giới tính: </b></label><input type="radio" name="gioitinh" value="nu"><label for="nu">Nữ</label><input type="radio" name="gioitinh" value="nam"><label for="nam">Nam</label><br>
+			<label for="ngaysinh"><b>Ngày sinh: </b></label><input type="date" class="form-control"><br>
+			<label for="email"><b>Email: </b></label><input type="email" placeholder="Email" size="50" class="form-control"><br>
+			<label for="chi nhanh"><b>Chi nhánh: </b></label><select name="chinhanh" class="form-control">
+			<option value="0">Chọn chi nhánh *</option>
+			<option value="1">CN Nguyễn Đình Chiều Q.3</option>
+			<option value="2">CN Tân Kỳ Tân Quý Q.TB</option>
+			<option value="3">CN Lê Tuấn Mậu Q.6</option>
+			</select><br>
+			<label for="ghichu"><b>Ghi chú: </b> </label><br>
+			<textarea placeholder="Message" class="form-control" rows="5" cols="50">
+			</textarea><br>
+			<input type="submit" class="btn">
+			<button type="reset" class="nhap-lai">Nhập lại</button>
+		</form>
+	</div>
+</body>
+</html>
